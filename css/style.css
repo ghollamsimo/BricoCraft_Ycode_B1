@@ -55,20 +55,7 @@ body {
   
 }
 
-.header-{
-  display: grid;
-  grid-template-columns: 50% 50%;
-  padding: 50px;
-}
-.header- h1{
-  margin-top: 50px;
-  padding: 5px;
-}
-.header- img{
-  border-radius: 20px;
-  margin-top: 20px;
-  width: 40rem;
-}
+
 .container_{
   display: grid;
   grid-template-columns:repeat(3,1fr); 
@@ -154,7 +141,7 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  background-color: #d1e3ff;
+  background-color: #d1feff;
 }
 
 .header_section .container-fluid {
