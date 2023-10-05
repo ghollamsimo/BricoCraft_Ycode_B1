@@ -754,21 +754,34 @@ a:focus {
 }
 
 .info_section .social-box .box {
-  background-color: #ffffff;
   padding: 5px 15px;
 }
-
+.container-box{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+}
+.box{
+  background-color: white;
+  border-radius: 5px;
+  transition: 1s;
+}
+.box:hover{
+  background-color: #0355cc;
+}
 .info_section a {
-  margin: 0 5px;
-  color: #0355cc;
+  margin: 5px;
+  color: #000000;
+  transition: 1s;
 }
 
 .info_section a i {
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .info_section a:hover {
-  color: #ff8a1d;
+  color: #ffffff;
+  transition: 1s;
 }
 
 .info_items a {

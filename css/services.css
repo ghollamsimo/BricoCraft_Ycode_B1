@@ -21,7 +21,7 @@
    margin: 30px;
 }
 .card:hover{
-    box-shadow: 60px -16px rgb(128, 189, 192);
+    box-shadow: 50px -16px rgb(128, 189, 192);
 }
 .image_card{
     margin-bottom: 20px;
@@ -32,7 +32,7 @@
 }
 .header-service{
     display: grid;
-    grid-template-columns: 50% 40%;
+    grid-template-columns: 60% 40%;
     background-color: rgb(128, 189, 192);
     border-radius: 10px 20px;
 }
@@ -47,5 +47,5 @@
 .header-service_text{
     padding: 20px;
     margin-top: 60px;
-    
+    width: 700px;
 }
