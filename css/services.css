@@ -25,6 +25,7 @@
 }
 .image_card{
     margin-bottom: 20px;
+    width:100px;
 }
 .image_card:hover{
     color: white;
