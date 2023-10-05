@@ -41,15 +41,3 @@ function myMap() {
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 }
 
-
-var myVar;
-
-function showPage() {
-    document.getElementById("loader").style.display = "none";
-    document.getElementById("myDiv").style.display = "block";
-  }
-
-function myFunction() {
-  myVar = setTimeout(showPage, 1000);
-}
-
