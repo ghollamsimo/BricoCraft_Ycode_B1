@@ -5,8 +5,7 @@
 .container_{
     display: grid;
     grid-template-columns:repeat(3,1fr); 
-    gap: 3rem;
-    
+    gap: 0px;
    }
    .card{
     background: white;
@@ -29,6 +28,27 @@
 }
 .image_card:hover{
     color: white;
+}
+.card-services{
+    background: white;
+    width: 350px;
+    height: 250px;
+    transition: 1s;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px  solid black;
+   margin: 30px;
+}
+.card-services:hover{
+    box-shadow: 50px -16px rgb(128, 189, 192);
+}
+.image_services{
+    width: 80px;
+    margin-top: 30px;
+}
+.card-text{
+    margin-top: 20px;
 }
 .header-service{
     display: grid;
